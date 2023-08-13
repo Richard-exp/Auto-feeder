@@ -7,10 +7,11 @@ use std::time::Duration;
 use rppal::gpio::{Gpio, OutputPin};
 
 // Gpio uses BCM pin numbering.
-const IN1_GPIO: u8 = 4;
-const IN2_GPIO: u8 = 17;
-const IN3_GPIO: u8 = 23;
-const IN4_GPIO: u8 = 24;
+const IN1_GPIO: u8 = 25;
+const IN2_GPIO: u8 = 8;
+const IN3_GPIO: u8 = 7;
+const IN4_GPIO: u8 = 12;
+
 const TIME: u64 = 3;
 
 struct ServoPins {
