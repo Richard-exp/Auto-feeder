@@ -102,10 +102,10 @@ impl ServoPins {
         self.IN3.is_set_low();
         self.IN4.is_set_low();
     }
-    fn move_motor(&mut self,steps: i64){
+    fn move_motor(&mut self, steps: i64) {
         for _ in 0..steps {
-            self.left(30);
-            self.right(10);
+            self.left(90);
+            self.right(30);
         }
     }
 }
